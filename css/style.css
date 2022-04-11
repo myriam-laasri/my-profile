@@ -1,0 +1,144 @@
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1283px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.mx-auto {
+
+  margin: auto;
+  text-align: center;
+}
+
+.mt-37 {
+  margin-top: 37px;
+}
+
+
+
+header.head1 {
+    background: url("../img/bg.jpg") no-repeat center;
+    width: 100%;
+    height: 935px;
+    background-size: cover;
+    color: white;
+}
+header.head2 {
+  background: url("../img/fenty.jpg") no-repeat center;
+  width: 100%;
+  height: 935px;
+  background-size: cover;
+  color: white;
+}
+header.head3 {
+  background: url("../img/oeuvres.jpg") no-repeat center;
+  width: 100%;
+  height: 935px;
+  background-size: cover;
+  color: white;
+}
+
+.container_header {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li,
+a {
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.nav_header {
+  padding: 25px 10%;
+  height: 85px;
+  background-color: var(--gris-transparant);
+  margin-bottom: 20px;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav_link {
+  list-style: none;
+}
+
+.nav_link li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav_link li a {
+  transition: all 0.3s ease 0s;
+  padding: 10px;
+}
+
+.nav_link li a:hover,
+.cta:hover {
+  background-color: var(--bleu-fonce);
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+header h1 {
+  font-family: "Ephesis", cursive;
+  font-size: 40px;
+}
+
+header h2 {
+  font-family: "Ephesis", cursive;
+  padding-top: 8px;
+
+  font-size: 70px;
+}
+
+header p {
+  font-family: "Cottonwood", cursive;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+main {
+  height: 1745px;
+}
+
+
